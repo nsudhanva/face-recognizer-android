@@ -1,0 +1,23 @@
+# ninja log v5
+0	112	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/libsvm/svm-scale.cpp.o	fc1a0b9b1a0f738d
+0	641	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/libsvm/svm-train.cpp.o	63c0fc812d565006
+0	686	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/jnilibsvm.cpp.o	654b032e6eb11031
+0	688	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/libsvm/svm-predict.cpp.o	ed00b98621696688
+0	726	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/common.cpp.o	9552ba4dc46b959c
+1	865	0	jnilibsvm/CMakeFiles/jnilibsvm.dir/libsvm/svm.cpp.o	908ee33f4354b41f
+865	931	0	/home/sudhanva/code/pesumca/face-recognizer-android/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libjnilibsvm.so	382127aa08f156c6
+1	31	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/time_log.cc.o	a37cf01763b2ed21
+0	60	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/imageutils_jni.cc.o	da72744a8eaf15b6
+0	739	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/keypoint_detector.cc.o	a2d294bfc0c96bdc
+0	781	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/image_neon.cc.o	995c6d61bf98f766
+739	832	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/rgb2yuv.cc.o	a5dea677851a24e0
+781	857	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/yuv2rgb.cc.o	bde07899f104780c
+1	916	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/object_tracker_jni.cc.o	5fa313b1be594146
+0	946	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/frame_pair.cc.o	1a1a923055ee549e
+1	999	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/object_detector.cc.o	a4761b7423c91d4a
+1	1028	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/logging.cc.o	7b9ff1f203240b26
+60	1033	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/utils_neon.cc.o	de47d32a628ff8d5
+1	1057	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/optical_flow.cc.o	d36d56ae9ee81fb6
+31	1142	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/tracked_object.cc.o	cc745d434b46823b
+1	1476	0	tensorflow_demo/CMakeFiles/tensorflow_demo.dir/object_tracking/object_tracker.cc.o	1c74b8078ea9b88d
+1476	1727	0	/home/sudhanva/code/pesumca/face-recognizer-android/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libtensorflow_demo.so	5b5cb0e57b0d7c71

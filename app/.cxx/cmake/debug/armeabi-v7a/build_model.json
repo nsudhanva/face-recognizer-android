@@ -1,0 +1,67 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/home/sudhanva/code/pesumca/face-recognizer-android",
+      "sdkFolder": "/home/sudhanva/Android/Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/home/sudhanva/code/pesumca/face-recognizer-android/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/home/sudhanva/code/pesumca/face-recognizer-android/app",
+      "makeFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/home/sudhanva/code/pesumca/face-recognizer-android/.cxx",
+      "cxxFolder": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx",
+      "ndkFolder": "/home/sudhanva/Android/Sdk/ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "/home/sudhanva/code/pesumca/face-recognizer-android/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/home/sudhanva/code/pesumca/face-recognizer-android/app/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 24,
+  "cxxBuildFolder": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a",
+  "jsonFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/home/sudhanva/code/pesumca/face-recognizer-android/app/build/intermediates/cmake/debug/obj/armeabi-v7a",
+  "buildCommandFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cxx/debug/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cxx/debug/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cxx/debug/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cxx/debug/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/compile_commands.json"
+}

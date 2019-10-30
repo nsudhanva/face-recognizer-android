@@ -1,0 +1,169 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/CMakeLists.txt",
+		"/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/CMakeLists.txt",
+		"/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/jnilibsvm/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/sudhanva/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"jnilibsvm-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "jnilibsvm",
+			"buildCommand" : "/home/sudhanva/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a --target jnilibsvm",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Djnilibsvm_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fno-exceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/jnilibsvm/common.cpp",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Djnilibsvm_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fno-exceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/jnilibsvm/jnilibsvm.cpp",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Djnilibsvm_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fno-exceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/jnilibsvm/libsvm/svm-predict.cpp",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Djnilibsvm_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fno-exceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/jnilibsvm/libsvm/svm-scale.cpp",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Djnilibsvm_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fno-exceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/jnilibsvm/libsvm/svm-train.cpp",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Djnilibsvm_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fno-exceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/jnilibsvm/libsvm/svm.cpp",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/build/intermediates/cmake/release/obj/armeabi-v7a/libjnilibsvm.so",
+			"toolchain" : "10822914113736623133"
+		},
+		"tensorflow_demo-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "tensorflow_demo",
+			"buildCommand" : "/home/sudhanva/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a --target tensorflow_demo",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/imageutils_jni.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/object_tracking/frame_pair.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/object_tracking/image_neon.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/object_tracking/keypoint_detector.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/object_tracking/logging.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/object_tracking/object_detector.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/object_tracking/object_tracker.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/object_tracking/object_tracker_jni.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/object_tracking/optical_flow.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/object_tracking/time_log.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/object_tracking/tracked_object.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/object_tracking/utils_neon.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/rgb2yuv.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/src/main/jni/tensorflow_demo/yuv2rgb.cc",
+					"workingDirectory" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/sudhanva/code/pesumca/face-recognizer-android/app/build/intermediates/cmake/release/obj/armeabi-v7a/libtensorflow_demo.so",
+			"toolchain" : "10822914113736623133"
+		}
+	},
+	"toolchains" : 
+	{
+		"10822914113736623133" : 
+		{
+			"cCompilerExecutable" : "/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/sudhanva/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

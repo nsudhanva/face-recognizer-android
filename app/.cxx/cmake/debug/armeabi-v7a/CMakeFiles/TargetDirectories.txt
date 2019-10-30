@@ -1,0 +1,8 @@
+/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/tensorflow_demo/CMakeFiles/edit_cache.dir
+/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/tensorflow_demo/CMakeFiles/rebuild_cache.dir
+/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/tensorflow_demo/CMakeFiles/tensorflow_demo.dir
+/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/jnilibsvm/CMakeFiles/edit_cache.dir
+/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/jnilibsvm/CMakeFiles/rebuild_cache.dir
+/home/sudhanva/code/pesumca/face-recognizer-android/app/.cxx/cmake/debug/armeabi-v7a/jnilibsvm/CMakeFiles/jnilibsvm.dir
